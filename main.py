@@ -14,5 +14,5 @@ def main():
     answer = largest(n1,n2,n3)
     st.write("The largest among the three numbers is {answer}")
 
-if name == "main":
+if __name__ == "__main__":
   main()   
