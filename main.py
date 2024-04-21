@@ -6,9 +6,9 @@ def main():
   st.title("To find the largest value")
   st.write("Enter the numbers")
 
-  n1 = st.number_input(value=0)
-  n2 = st.number_input(value=0)
-  n3 = st.number_input(value=0)
+  n1 = st.number_input("Enter number here", value=0)
+  n2 = st.number_input("Enter number here", value=0)
+  n3 = st.number_input("Enter number here", value=0)
 
   if st.button("Compare"):
     answer = largest(n1,n2,n3)
